@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Abrar | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Google Fonts for modern look -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <div id="tsparticles-bg"></div>
+
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <span class="logo">Muhammad Abrar</span>
+        <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+        <nav class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </nav>
+  </header>
+  <div class="hero-profile-wrapper">
+    <img src="profile.jpg.png" alt="Profile Photo" class="hero-profile-photo" />
+  </div>
+  <div class="hero-card">
+    <h1>Hi, I'm Muhammad Abrar</h1>
+    <div class="hero-heading-underline"></div>
+    <p class="hero-subtitle"><span id="typewriter"></span></p>
+    <div class="hero-btns">
+      <a href="#projects" class="hero-btn">View My Work</a>
+      <a href="Resume.pdf.pdf" class="hero-btn" download>Download Resume</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- Home Section -->
+    <section id="home" class="section home-section">
+      <div class="container home-container">
+        <!-- Profile Photo: Replace src with your image in assets folder -->
+        <div class="profile-photo-wrapper">
+          <img src="profile.jpg.png" alt="Profile Photo" class="profile-photo animated-profile" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+      <div class="about-glass-card animate-float">
+        <div class="about-header">
+          <div class="about-profile-float">
+            <img src="profile.jpg.png" alt="Profile Photo" class="about-profile-photo" />
+          </div>
+          <div class="about-title-block">
+            <h2><span class="section-icon"> <!-- About: User Classic -->
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="8.5" r="3.5" stroke="#e63946" stroke-width="2" fill="none" />
+                <path d="M5.5 19c0-3.5 4-5 6.5-5s6.5 1.5 6.5 5" stroke="#e63946" stroke-width="2" stroke-linecap="round" fill="none" />
+              </svg></span> About Me</h2>
+            <div class="about-badges">
+              <span class="about-badge">Web Enthusiast</span>
+              <span class="about-badge">Problem Solver</span>
+              <span class="about-badge">Team Player</span>
+              <span class="about-badge">Continuous Learner</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-body">
+          <p>Hi, I'm <b>Muhammad Abrar Ejaz</b>, a Computer Science student at Bahria University Islamabad with a strong passion for web development.<br><br>
+          I specialize in building responsive, user-friendly websites and have hands-on experience with technologies like <b>C++, Python, HTML, CSS, JavaScript, and MySQL</b>.<br><br>
+          I'm driven by continuous learning, with the goal of becoming a skilled full-stack developer capable of delivering innovative digital solutions. I enjoy working in collaborative environments and solving real-world problems through code.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <h2><span class="section-icon"> <!-- Projects: Folder --> <svg width="28" height="28" viewBox="0 0 24 24"
+              fill="none">
+              <rect x="3" y="7" width="18" height="12" rx="3" fill="#e63946" />
+              <rect x="3" y="5" width="7" height="4" rx="2" fill="#e63946" opacity="0.7" />
+            </svg></span> Projects</h2>
+        <div class="projects-dynamic-grid">
+          <!-- Project 1: PakMart E-commerce -->
+          <div class="project-glass-card featured animate-float">
+            <div class="project-glass-header">
+              <div class="project-glass-icon">
+                <svg width="36" height="36" fill="none" viewBox="0 0 24 24">
+                  <path d="M7 18a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm10 2a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm-9.83-4l.94-2h7.45a2 2 0 0 0 1.92-1.45l3.24-9.7A1 1 0 0 0 20 2H6.21l-.94-2H1v2h2l3.6 7.59-1.35 2.44A2 2 0 0 0 5 17h12v-2H7.42z" fill="#e63946" />
+                </svg>
+              </div>
+            </div>
+            <h3>PakMart E-commerce</h3>
+            <p>A full-featured online shopping store with user login, cart, and MySQL backend for product management.</p>
+            <div class="project-glass-tags"><span>HTML</span><span>CSS</span><span>Java</span><span>MySQL</span></div>
+          </div>
+          <!-- Project 2: Restaurant Management System -->
+          <div class="project-glass-card animate-float">
+            <div class="project-glass-header">
+              <div class="project-glass-icon">
+                <svg width="36" height="36" fill="none" viewBox="0 0 24 24">
+                  <path d="M7 2a1 1 0 0 1 1 1v7.5a2.5 2.5 0 1 1-2 0V3a1 1 0 0 1 1-1zm5.5 1.5a1 1 0 0 1 2 0V10a2 2 0 1 1-2 0V3.5zm4.5 0a1 1 0 0 1 2 0V10a2 2 0 1 1-2 0V3.5z" fill="#e63946" />
+                </svg>
+              </div>
+            </div>
+            <h3>Restaurant Management System</h3>
+            <p>A desktop app to manage restaurant orders, billing, and inventory using Object-Oriented Programming.</p>
+            <div class="project-glass-tags"><span>C++</span><span>OOP</span></div>
+          </div>
+          <!-- Project 3: Responsive Bookmark Manager -->
+          <div class="project-glass-card animate-float">
+            <div class="project-glass-header">
+              <div class="project-glass-icon">
+                <svg width="36" height="36" fill="none" viewBox="0 0 24 24">
+                  <path d="M6 2a2 2 0 0 0-2 2v18l8-5.33L20 22V4a2 2 0 0 0-2-2H6z" fill="#e63946" />
+                </svg>
+              </div>
+            </div>
+            <h3>Responsive Bookmark Manager</h3>
+            <p>A responsive web app to manage and organize bookmarks, built with HTML, CSS, and Java.</p>
+            <div class="project-glass-tags"><span>HTML</span><span>CSS</span><span>Java</span></div>
+          </div>
+          <!-- Project 4: Text Editor -->
+          <div class="project-glass-card animate-float">
+            <div class="project-glass-header">
+              <div class="project-glass-icon">
+                <svg width="36" height="36" fill="none" viewBox="0 0 24 24">
+                  <path d="M3 17.25V21h3.75l11.06-11.06-3.75-3.75L3 17.25zm14.71-9.04a1 1 0 0 1 0 1.41l-1.34 1.34-3.75-3.75 1.34-1.34a1 1 0 0 1 1.41 0l2.34 2.34z" fill="#e63946" />
+                </svg>
+              </div>
+            </div>
+            <h3>Text Editor</h3>
+            <p>A simple text editor application using Object-Oriented Programming concepts.</p>
+            <div class="project-glass-tags"><span>C++</span><span>OOP</span></div>
+          </div>
+          <!-- Project 5: Snake & Ladder Game -->
+          <div class="project-glass-card animate-float">
+            <div class="project-glass-header">
+              <div class="project-glass-icon">
+                <svg width="36" height="36" fill="none" viewBox="0 0 24 24">
+                  <rect x="3" y="3" width="18" height="18" rx="4" fill="#e63946" />
+                  <circle cx="8" cy="8" r="1.5" fill="#fff" />
+                  <circle cx="16" cy="8" r="1.5" fill="#fff" />
+                  <circle cx="8" cy="16" r="1.5" fill="#fff" />
+                  <circle cx="16" cy="16" r="1.5" fill="#fff" />
+                </svg>
+              </div>
+            </div>
+            <h3>Snake & Ladder Game</h3>
+            <p>Classic board game implemented with Data Structures & Algorithms for logic and gameplay.</p>
+            <div class="project-glass-tags"><span>C++</span><span>OOP</span><span>DSA</span></div>
+          </div>
+          <!-- Project 6: Assembly Calculator -->
+          <div class="project-glass-card animate-float">
+            <div class="project-glass-header">
+              <div class="project-glass-icon">
+                <svg width="36" height="36" fill="none" viewBox="0 0 24 24">
+                  <rect x="4" y="2" width="16" height="20" rx="3" fill="#e63946" />
+                  <rect x="7" y="6" width="10" height="2" rx="1" fill="#fff" />
+                  <rect x="7" y="10" width="2" height="2" rx="1" fill="#fff" />
+                  <rect x="11" y="10" width="2" height="2" rx="1" fill="#fff" />
+                  <rect x="15" y="10" width="2" height="2" rx="1" fill="#fff" />
+                  <rect x="7" y="14" width="2" height="2" rx="1" fill="#fff" />
+                  <rect x="11" y="14" width="2" height="2" rx="1" fill="#fff" />
+                  <rect x="15" y="14" width="2" height="2" rx="1" fill="#fff" />
+                </svg>
+              </div>
+            </div>
+            <h3>Assembly Calculator</h3>
+            <p>A scientific calculator built in Assembly language, supporting arithmetic and logical operations.</p>
+            <div class="project-glass-tags"><span>Assembly</span></div>
+          </div>
+          <!-- Project 7: Hotel Network (CCN) -->
+          <div class="project-glass-card animate-float">
+            <div class="project-glass-header">
+              <div class="project-glass-icon">
+                <svg width="36" height="36" fill="none" viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="10" stroke="#e63946" stroke-width="2" />
+                  <circle cx="12" cy="12" r="4" stroke="#e63946" stroke-width="2" />
+                  <circle cx="12" cy="4" r="1.5" fill="#e63946" />
+                  <circle cx="12" cy="20" r="1.5" fill="#e63946" />
+                  <circle cx="4" cy="12" r="1.5" fill="#e63946" />
+                  <circle cx="20" cy="12" r="1.5" fill="#e63946" />
+                </svg>
+              </div>
+            </div>
+            <h3>Hotel Network</h3>
+            <p>Designed a hotel network with both wireless and wired connections, focusing on Cisco networking concepts.</p>
+            <div class="project-glass-tags"><span>CCN</span></div>
+          </div>
+          <!-- Add More Card -->
+          <div class="project-glass-card add-more animate-float">
+            <div class="project-glass-header">
+              <div class="project-glass-icon">
+                <svg width="36" height="36" fill="none" viewBox="0 0 24 24">
+                  <circle cx="18" cy="18" r="10" fill="#e63946" opacity="0.13" />
+                  <path d="M12 7v10M7 12h10" stroke="#e63946" stroke-width="2" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+            <h3>Add More</h3>
+            <p>Add your next awesome project here!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <h2><span class="section-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+              <path d="M8 17l-5-5 5-5" stroke="#e63946" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M16 7l5 5-5 5" stroke="#e63946" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M12 19l0-14" stroke="#e63946" stroke-width="2" stroke-linecap="round" />
+            </svg></span> Skills</h2>
+        
+        <!-- Programming Languages -->
+        <div class="skills-category">
+          <div class="category-header">
+            <div class="category-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                <path d="M8 17l-5-5 5-5" stroke="#e63946" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M16 7l5 5-5 5" stroke="#e63946" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 19l0-14" stroke="#e63946" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </div>
+            <h3>Programming Languages</h3>
+          </div>
+          <div class="skills-container">
+            <div class="skill-item">
+              <span class="skill-name">C++</span>
+              <div class="skill-bar-wrapper">
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="90"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">HTML/CSS/JavaScript</span>
+              <div class="skill-bar-wrapper">
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="75"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Python</span>
+              <div class="skill-bar-wrapper">
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="70"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">SQL</span>
+              <div class="skill-bar-wrapper">
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="65"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Assembly Language</span>
+              <div class="skill-bar-wrapper">
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="50"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Core Concepts -->
+        <div class="skills-category">
+          <div class="category-header">
+            <div class="category-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                <path d="M9 18h6" stroke="#e63946" stroke-width="2" stroke-linecap="round" />
+                <path d="M10 22h4" stroke="#e63946" stroke-width="2" stroke-linecap="round" />
+                <path d="M12 2a7 7 0 0 1 7 7c0 2.5-1.5 4.5-3 6a2 2 0 0 1-4 0c-1.5-1.5-3-3.5-3-6a7 7 0 0 1 7-7z" stroke="#e63946" stroke-width="2" />
+              </svg>
+            </div>
+            <h3>Core Concepts</h3>
+          </div>
+          <div class="skills-container">
+            <div class="skill-item">
+              <span class="skill-name">Object-Oriented Programming</span>
+              <div class="skill-bar-wrapper">
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="85"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Data Structures</span>
+              <div class="skill-bar-wrapper">
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="75"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Algorithms</span>
+              <div class="skill-bar-wrapper">
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="70"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Database Management</span>
+              <div class="skill-bar-wrapper">
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="65"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Networking -->
+        <div class="skills-category">
+          <div class="category-header">
+            <div class="category-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="10" stroke="#e63946" stroke-width="2" />
+                <circle cx="12" cy="12" r="4" stroke="#e63946" stroke-width="2" />
+                <circle cx="12" cy="4" r="1.5" fill="#e63946" />
+                <circle cx="12" cy="20" r="1.5" fill="#e63946" />
+                <circle cx="4" cy="12" r="1.5" fill="#e63946" />
+                <circle cx="20" cy="12" r="1.5" fill="#e63946" />
+              </svg>
+            </div>
+            <h3>Networking & Tools</h3>
+          </div>
+          <div class="skills-container">
+            <div class="skill-item">
+              <span class="skill-name">Cisco Networking</span>
+              <div class="skill-bar-wrapper">
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="70"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Wireshark</span>
+              <div class="skill-bar-wrapper">
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="60"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">TCP/IP Protocols</span>
+              <div class="skill-bar-wrapper">
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="65"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Network Security</span>
+              <div class="skill-bar-wrapper">
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="55"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Floating Skill Cards -->
+        <div class="floating-skills">
+          <div class="floating-skill-card" data-skill="Web Development">
+            <div class="floating-icon">🌐</div>
+            <span>Web Dev</span>
+          </div>
+          <div class="floating-skill-card" data-skill="Problem Solving">
+            <div class="floating-icon">💡</div>
+            <span>Problem Solving</span>
+          </div>
+          <div class="floating-skill-card" data-skill="Team Collaboration">
+            <div class="floating-icon">🤝</div>
+            <span>Team Work</span>
+          </div>
+          <div class="floating-skill-card" data-skill="Continuous Learning">
+            <div class="floating-icon">📚</div>
+            <span>Learning</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Languages Section -->
+    <section id="languages" class="section languages-section">
+      <div class="container">
+        <h2><span class="section-icon"> <!-- Languages: Globe --> <svg width="28" height="28" viewBox="0 0 24 24"
+              fill="none">
+              <circle cx="12" cy="12" r="10" stroke="#e63946" stroke-width="2" />
+              <ellipse cx="12" cy="12" rx="4" ry="10" stroke="#e63946" stroke-width="2" />
+              <path d="M2 12h20" stroke="#e63946" stroke-width="2" />
+            </svg></span> Languages</h2>
+        
+        <!-- Language Proficiency Cards -->
+        <div class="languages-grid">
+          <!-- English -->
+          <div class="language-card">
+            <div class="language-header">
+              <div class="language-flag">
+                <span class="flag-emoji">🇺🇸</span>
+              </div>
+              <div class="language-info">
+                <h3 class="language-name">English</h3>
+                <p class="language-level">Fluent Proficiency</p>
+              </div>
+              <div class="proficiency-badge">
+                <span>88%</span>
+              </div>
+            </div>
+            <div class="language-details">
+              <div class="skill-breakdown">
+                <div class="skill-item">
+                  <span class="skill-label">Speaking</span>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-width="85"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-label">Writing</span>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-width="90"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-label">Reading</span>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-width="95"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-label">Listening</span>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-width="88"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="language-usage">
+                <span class="usage-label">Primary Language for:</span>
+                <div class="usage-tags">
+                  <span class="usage-tag">Academic Studies</span>
+                  <span class="usage-tag">Technical Documentation</span>
+                  <span class="usage-tag">Programming</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Urdu -->
+          <div class="language-card">
+            <div class="language-header">
+              <div class="language-flag">
+                <span class="flag-emoji">🇵🇰</span>
+              </div>
+              <div class="language-info">
+                <h3 class="language-name">Urdu</h3>
+                <p class="language-level">Native Proficiency</p>
+              </div>
+              <div class="proficiency-badge">
+                <span>100%</span>
+              </div>
+            </div>
+            <div class="language-details">
+              <div class="skill-breakdown">
+                <div class="skill-item">
+                  <span class="skill-label">Speaking</span>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-width="100"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-label">Writing</span>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-width="100"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-label">Reading</span>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-width="100"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-label">Listening</span>
+                  <div class="skill-bar">
+                    <div class="skill-fill" data-width="100"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="language-usage">
+                <span class="usage-label">Primary Language for:</span>
+                <div class="usage-tags">
+                  <span class="usage-tag">Daily Communication</span>
+                  <span class="usage-tag">Cultural Context</span>
+                  <span class="usage-tag">Local Networking</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Language Stats -->
+        <div class="language-stats">
+          <div class="stat-item">
+            <div class="stat-icon">🗣️</div>
+            <div class="stat-content">
+              <h4>Languages Known</h4>
+              <p>2 Languages</p>
+            </div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon">📚</div>
+            <div class="stat-content">
+              <h4>Academic Language</h4>
+              <p>English (Fluent)</p>
+            </div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon">🌍</div>
+            <div class="stat-content">
+              <h4>Native Language</h4>
+              <p>Urdu</p>
+            </div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon">💼</div>
+            <div class="stat-content">
+              <h4>Professional Use</h4>
+              <p>Both Languages</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Language Proficiency Chart -->
+        <div class="proficiency-chart">
+          <h3>Overall Language Proficiency</h3>
+          <div class="chart-container">
+            <div class="chart-item">
+              <div class="chart-label">English</div>
+              <div class="chart-bar">
+                <div class="chart-fill" data-width="88"></div>
+              </div>
+              <div class="chart-percentage">88%</div>
+            </div>
+            <div class="chart-item">
+              <div class="chart-label">Urdu</div>
+              <div class="chart-bar">
+                <div class="chart-fill" data-width="100"></div>
+              </div>
+              <div class="chart-percentage">100%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education-section">
+      <div class="container">
+        <h2><span class="section-icon"> <!-- Education: Cap --> <svg width="28" height="28" viewBox="0 0 24 24"
+              fill="none">
+              <path d="M2 8l10 4 10-4-10-4-10 4zm0 0v6a10 3 0 0 0 20 0V8" stroke="#e63946" stroke-width="2" />
+              <path d="M12 12v8" stroke="#e63946" stroke-width="2" />
+            </svg></span> Education</h2>
+        
+        <!-- Education Timeline -->
+        <div class="education-timeline">
+          <!-- Current Education -->
+          <div class="timeline-item current">
+            <div class="timeline-marker">
+              <div class="marker-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="#e63946" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div class="marker-pulse"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="education-card">
+                <div class="education-header">
+                  <div class="institution-logo">
+                    <span class="logo-text">BU</span>
+                  </div>
+                  <div class="education-info">
+                    <h3 class="institution-name">Bahria University, Islamabad</h3>
+                    <p class="degree">Bachelor of Science in Computer Science</p>
+                    <div class="education-meta">
+                      <span class="duration">2023 - Present</span>
+                      <span class="gpa">CGPA: 3.06</span>
+                    </div>
+                  </div>
+                  <div class="status-badge current">
+                    <span>Current</span>
+                  </div>
+                </div>
+                <div class="education-details">
+                  <div class="detail-item">
+                    <span class="detail-label">🎯 Focus Areas:</span>
+                    <span class="detail-value">Web Development, Data Structures, Algorithms</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">📚 Key Courses:</span>
+                    <span class="detail-value">OOP, Database Systems, Computer Networks</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">🏆 Achievements:</span>
+                    <span class="detail-value">Active in Programming Competitions</span>
+                  </div>
+                </div>
+                <div class="progress-indicator">
+                  <div class="progress-bar">
+                    <div class="progress-fill" data-progress="60"></div>
+                  </div>
+                  <span class="progress-text">60% Complete</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Previous Education -->
+          <div class="timeline-item completed">
+            <div class="timeline-marker">
+              <div class="marker-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M9 12l2 2 4-4M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z" stroke="#e63946" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class="timeline-content">
+              <div class="education-card">
+                <div class="education-header">
+                  <div class="institution-logo">
+                    <span class="logo-text">BCI</span>
+                  </div>
+                  <div class="education-info">
+                    <h3 class="institution-name">Bahria College Islamabad</h3>
+                    <p class="degree">F.Sc. (ICS) - Intermediate in Computer Science</p>
+                    <div class="education-meta">
+                      <span class="duration">2022 - 2023</span>
+                      <span class="gpa">Completed</span>
+                    </div>
+                  </div>
+                  <div class="status-badge completed">
+                    <span>Completed</span>
+                  </div>
+                </div>
+                <div class="education-details">
+                  <div class="detail-item">
+                    <span class="detail-label">🎯 Focus Areas:</span>
+                    <span class="detail-value">Computer Science Fundamentals, Mathematics</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">📚 Key Subjects:</span>
+                    <span class="detail-value">Physics, Mathematics, Computer Studies</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">🏆 Achievements:</span>
+                    <span class="detail-value">Strong Foundation in CS Concepts</span>
+                  </div>
+                </div>
+                <div class="completion-badge">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                    <path d="M9 12l2 2 4-4M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z" stroke="#4ade80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <span>Successfully Completed</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education Stats -->
+        <div class="education-stats">
+          <div class="stat-card">
+            <div class="stat-icon">📚</div>
+            <div class="stat-content">
+              <h4>Current Semester</h4>
+              <p>5th Semester</p>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">🎯</div>
+            <div class="stat-content">
+              <h4>CGPA</h4>
+              <p>3.06/4.00</p>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">⏰</div>
+            <div class="stat-content">
+              <h4>Expected Graduation</h4>
+              <p>2027</p>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">🏆</div>
+            <div class="stat-content">
+              <h4>Academic Focus</h4>
+              <p>Full-Stack Development</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2><span class="section-icon"> <!-- Contact: Message --> <svg width="28" height="28" viewBox="0 0 24 24"
+              fill="none">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="#e63946"
+                stroke-width="2" />
+            </svg></span> Contact Me</h2>
+        
+        <!-- Contact Grid -->
+        <div class="contact-grid">
+          <!-- Contact Form Card -->
+          <div class="contact-form-card">
+            <div class="form-header">
+              <div class="form-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="#e63946" stroke-width="2" />
+                </svg>
+              </div>
+              <h3>Send Me a Message</h3>
+              <p>I'd love to hear from you! Let's discuss opportunities.</p>
+            </div>
+            <form class="contact-form" action="https://formspree.io/f/xnnzdqav" method="POST">
+              <div class="form-row">
+                <div class="input-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" placeholder="Your Name" required>
+                  <div class="input-icon">👤</div>
+                </div>
+                <div class="input-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                  <div class="input-icon">📧</div>
+                </div>
+              </div>
+              <div class="input-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+                <div class="input-icon">📝</div>
+              </div>
+              <div class="input-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Tell me about your project or opportunity..." required></textarea>
+                <div class="input-icon">💬</div>
+              </div>
+              <button type="submit" class="submit-btn">
+                <span>Send Message</span>
+                <div class="btn-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                    <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+              </button>
+            </form>
+          </div>
+
+          <!-- Contact Info Card -->
+          <div class="contact-info-card">
+            <div class="info-header">
+              <div class="info-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke="#e63946" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <h3>Get In Touch</h3>
+              <p>Choose your preferred way to connect</p>
+            </div>
+            <div class="contact-methods">
+              <div class="contact-method">
+                <div class="method-icon">
+                  <!-- Official LinkedIn Logo -->
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <rect x="2" y="2" width="20" height="20" rx="2" fill="#0077B5"/>
+                    <text x="8" y="16" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">in</text>
+                  </svg>
+                </div>
+                <div class="method-info">
+                  <h4>LinkedIn</h4>
+                  <p>Connect professionally</p>
+                  <a href="https://www.linkedin.com/in/muhammad-abrar-ejaz/" target="_blank" class="method-link">
+                    Connect
+                  </a>
+                </div>
+              </div>
+              <div class="contact-method">
+                <div class="method-icon">
+                  <!-- Official GitHub Logo -->
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.604-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.579.688.481C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z" fill="#333"/>
+                  </svg>
+                </div>
+                <div class="method-info">
+                  <h4>GitHub</h4>
+                  <p>Check out my projects</p>
+                  <a href="https://github.com/Muhammad-Abrar-Ejaz" target="_blank" class="method-link">
+                    View Profile
+                  </a>
+                </div>
+              </div>
+              <div class="contact-method">
+                <div class="method-icon">
+                  <!-- Colorful Email Icon -->
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <rect x="2" y="4" width="20" height="16" rx="2" fill="#e63946"/>
+                    <path d="M22 6l-10 7L2 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2 6l10 7 10-7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="method-info">
+                  <h4>Email</h4>
+                  <p>muhammadabrarejaz@gmail.com</p>
+                  <a href="mailto:muhammadabrarejaz@gmail.com?subject=Contact%20from%20Portfolio" class="method-link">
+                    Send Email
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Stats -->
+        <div class="contact-stats">
+          <div class="stat-item">
+            <div class="stat-icon">⚡</div>
+            <div class="stat-content">
+              <h4>Response Time</h4>
+              <p>Within 24 Hours</p>
+            </div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon">🌍</div>
+            <div class="stat-content">
+              <h4>Location</h4>
+              <p>Islamabad, Pakistan</p>
+            </div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon">🕒</div>
+            <div class="stat-content">
+              <h4>Available</h4>
+              <p>For Opportunities</p>
+            </div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon">💬</div>
+            <div class="stat-content">
+              <h4>Languages</h4>
+              <p>English & Urdu</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="contact-cta">
+          <h3>Ready to Work Together?</h3>
+          <p>Let's discuss your project and see how I can help bring your ideas to life!</p>
+          <div class="cta-buttons">
+            <a href="mailto:muhammadabrarejaz@gmail.com?subject=Project%20Discussion" class="cta-btn primary">
+              <span>Start a Project</span>
+              <div class="btn-icon">🚀</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Muhammad Abrar. All rights reserved.</p>
+    </div>
+  </footer>
+  <button id="backToTopBtn" aria-label="Back to Top" title="Back to Top"></button>
+  <script src="script.js"></script>
+  <!-- tsParticles CDN for 3D background -->
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@3.3.0/tsparticles.bundle.min.js"></script>
+  <script>
+    tsParticles.load("tsparticles-bg", {
+      fullScreen: { enable: true, zIndex: 0 },
+      background: { color: { value: "#181a1b" } },
+      particles: {
+        number: { value: 70, density: { enable: true, area: 800 } },
+        color: { value: ["#e63946"] },
+        shape: { type: "circle" },
+        opacity: { value: 0.7, random: true },
+        size: { value: 3.5, random: { enable: true, minimumValue: 1.5 } },
+        move: {
+          enable: true,
+          speed: 1.2,
+          direction: "none",
+          random: false,
+          straight: false,
+          outModes: { default: "out" },
+          angle: { value: 10, offset: 0 },
+          trail: { enable: false }
+        },
+        links: {
+          enable: true,
+          distance: 160,
+          color: "#e63946",
+          opacity: 0.35,
+          width: 1.7,
+          triangles: { enable: true, color: "#e63946", opacity: 0.10 }
+        },
+        zIndex: { value: 5, opacityRate: 0.7 },
+      },
+      interactivity: {
+        detectsOn: "window",
+        events: {
+          onHover: { enable: true, mode: ["grab", "parallax"] },
+          onClick: { enable: true, mode: "push" },
+          resize: true
+        },
+        modes: {
+          grab: { distance: 180, links: { opacity: 0.7 } },
+          parallax: { enable: true, force: 60, smooth: 20 },
+          push: { quantity: 4 },
+        },
+      },
+      detectRetina: true,
+    });
+  </script>
+  <script>
+    const phrases = [
+      'Computer Science Student',
+      'Aspiring Full-Stack Developer',
+      'Web Enthusiast',
+      'Problem Solver'
+    ];
+    const typewriter = document.getElementById('typewriter');
+    let phraseIndex = 0, charIndex = 0, isDeleting = false;
+    function typeLoop() {
+      const current = phrases[phraseIndex];
+      if (!isDeleting) {
+        typewriter.textContent = current.slice(0, ++charIndex);
+        if (charIndex === current.length) {
+          isDeleting = true;
+          setTimeout(typeLoop, 1200);
+          return;
+        }
+      } else {
+        typewriter.textContent = current.slice(0, --charIndex);
+        if (charIndex === 0) {
+          isDeleting = false;
+          phraseIndex = (phraseIndex + 1) % phrases.length;
+        }
+      }
+      setTimeout(typeLoop, isDeleting ? 45 : 90);
+    }
+    typeLoop();
+  </script>
+  <script>
+    // Back to Top Button functionality
+    const backToTopBtn = document.getElementById('backToTopBtn');
+    window.addEventListener('scroll', function () {
+      if (window.scrollY > 300) {
+        backToTopBtn.classList.add('show');
+      } else {
+        backToTopBtn.classList.remove('show');
+      }
+    });
+    backToTopBtn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+  <div id="successPopup" class="success-popup">
+    <span class="success-tick">&#10003;</span>
+    <span class="success-text">Submission Successful!</span>
+  </div>
+</body>
+
+</html>
